@@ -45,3 +45,8 @@ void Manager::print() const
     cout << "Sales: " << sales << endl;
     cout << "Current sales: " << this->calcSalary() << endl;
 }
+
+string Manager::type() const
+{
+    return "Manager";
+}

@@ -17,5 +17,6 @@ public:
 
 	double calcSalary()const override;
 	void print()const override;
+	string type()const override;
 };
 

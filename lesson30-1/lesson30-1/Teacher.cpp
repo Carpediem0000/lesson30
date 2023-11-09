@@ -45,3 +45,8 @@ void Teacher::print() const
     cout << "Cost: " << cost << endl;
     cout << "Current cost: " << this->calcSalary() << endl;
 }
+
+string Teacher::type() const
+{
+    return "Teacher";
+}

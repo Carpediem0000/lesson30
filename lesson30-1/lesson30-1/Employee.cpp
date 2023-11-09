@@ -29,3 +29,8 @@ void Employee::print() const
     cout << "Name: " << name << endl;
     cout << "Salary: " << salary << endl;
 }
+
+string Employee::type() const
+{
+    return "Employee";
+}

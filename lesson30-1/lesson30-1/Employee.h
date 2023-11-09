@@ -20,5 +20,6 @@ public:
 
 	virtual double calcSalary()const;
 	virtual void print()const;
+	virtual string type()const;
 };
 
